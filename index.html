@@ -1,24 +1,26 @@
+﻿
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Animation Demo</title>
+<head>
+    <meta charset="UTF-8">
+    <title>CPSC 314 Assignment 5 2017 </title>
+    <style>
+        body {
+            margin: 0;
+        }
 
-  <body onload="main()">
-    <canvas id="webgl" width="800" height="600">
-    Please use a browser that supports "canvas"
-    </canvas>
-
-    <script src="lib/webgl-utils.js"></script>
-    <script src="lib/webgl-debug.js"></script>
-    <script src="lib/cuon-utils.js"></script>
-    <script src="lib/cuon-matrix.js"></script>
-    <script src="ShaderProgram.js"></script>
-    <script src="Camera.js"></script>
-    <script src="ObjReader.js"></script>
-    <script src="Mesh.js"></script>
-    <script src="Texture.js"></script>
-    <script src="a4.js"></script>
-<br>
-  </body>
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <script src="js/three.min.js"></script>
+    <script src="js/OBJLoader.js"></script>
+    <script src="js/SourceLoader.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/KeyboardState.js"></script> <!-- By Jerome Etienne: http://jetienne.com/ -->
+    <script src="a5.js"></script>
+</body>
 </html>
